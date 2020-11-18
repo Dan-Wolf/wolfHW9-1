@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Compiling read_button.cpp"
+echo "Creating read_button.cgi"
+g++ read_button.cpp GPIO.cpp -o read_button.cgi -lcgicc -pthread
+echo "Finished"

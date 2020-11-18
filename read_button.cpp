@@ -25,7 +25,7 @@ int main(){
    cout << HTTPHTMLHeader() << endl;       // Generate the HTML form
    cout << html() << head() << title("HW9-1") << head() << endl;
    cout << body() << h1("CPE 422/522 Reading a Pushbutton as Digital Input") << endl;
-   cout << h1("Reading a Pushbutton on gpio43 via a Web Browser") << endl;
+   cout << h1("Reading a Pushbutton on gpio46 via a Web Browser") << endl;
    cout << "<form action=\"/cgi-bin/read_button.cgi\" method=\"POST\">\n";
    cout << "<div>";
    cout << "<input type=\"submit\" value=\"Read Button\" />";
